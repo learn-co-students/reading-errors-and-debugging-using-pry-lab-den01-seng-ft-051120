@@ -1,8 +1,10 @@
 # don't forget to add: require 'pry'
+#count = 10
+
 
 def snake_it_up(string)
   if string[0] == "s"
-    10 * "s" + string
+    "s"+"s"+"s"+"s"+"s"+"s"+"s"+"s"+"s"+"s"+string
   else
     string
   end
